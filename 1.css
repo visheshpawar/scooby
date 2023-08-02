@@ -1,0 +1,330 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+    color: white;
+    background-color:rgb(13,18,15);
+    font-family: 'Playfair Display', serif;
+}
+#i1{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    margin-top: -10vw;
+    animation-name: df;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-delay: 2.5s;
+    animation-duration: 0.5s;
+
+}
+@keyframes df {
+    0%{
+        margin-top: -10vw;
+
+    }
+    50%
+    {
+        margin-top: 0vw;
+    }
+    75%
+    {
+        margin-top: -1vw;
+    }
+    100%
+    {
+        margin-top: 0vw;
+    }
+}
+#i3{
+    display: flex;
+    justify-content: center;
+   
+    width: 100%;
+}
+#i3 li{
+    padding:0vw 10vw 0vw 10vw;
+    
+    list-style: none;
+    font-size: 1.5vw;
+}
+#i3 li a{
+    color: greenyellow;
+    transition:color 1s ;
+    text-shadow: 0vw 0vw 0.4vw rgba(172, 255, 47, 0.511);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#i3 li a:hover{
+    color: blue;
+}
+#i4
+{
+   
+   padding-top: 10vw;
+   font-size:5vw;
+   margin-left: -150vw;
+   display: flex;
+   justify-content: center;
+   white-space: nowrap;
+   animation-name:cm;
+   text-shadow: 0vw 0vw 2vw rgba(255, 255, 255, 0.286);
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+}
+#i5
+{
+     
+   
+   font-size:5vw;
+   margin-left: 150vw;
+   display: flex;
+   justify-content: center;
+   white-space: nowrap;
+ text-shadow: 0vw 0vw 2vw rgba(255, 255, 255, 0.286);
+   animation-name:cmm;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-fill-mode: forwards;
+   animation-iteration-count: 1;
+
+}
+@keyframes cm{
+0%{
+margin-left: -150vw;
+color: black;
+}
+50%{
+    margin-left: 0vw;
+}
+75%
+{
+    margin-left: -2vw;
+}
+100%
+{
+    margin-left: 0vw;
+    color: white;
+}
+}
+@keyframes cmm
+{
+    0%{
+    margin-left: 150vw;
+    color: black;
+    }
+    50%{
+        margin-left: 0vw;
+    }
+    75%
+    {
+        margin-left: 2vw;
+    }
+    100%
+    {
+        margin-left: 0vw;
+        color: white;
+    }
+    }
+    #i6
+    {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 5vw;
+        z-index: -1;
+       
+        animation-name: mn;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        justify-content: center;
+    }
+    ::-webkit-scrollbar
+    {
+        display: none;
+    }
+   #i6 img
+   {
+    width: 40vw;
+  
+    opacity: 0.8;
+   }
+   @keyframes mn 
+   {
+    0%
+    {
+        margin-top: -100vw;
+    }
+    100%
+    {
+        margin-top: 5vw;
+    }
+   }
+   #sc
+   {
+    width: 100%;
+    height: 2vw;
+z-index: -100;
+ 
+    position: fixed;
+    top: 0%;
+    
+   }
+   #scb
+   {
+    height: 0.5vw;
+   width: 0%;
+    
+    z-index: 3;
+    background:greenyellow;
+   }
+   #i7
+{
+     
+    display: flex;
+        width: 100%;
+        position: absolute;
+        top: 5vw;
+        z-index: -1;
+       margin-left: 150vw;
+        animation-name: cmm1;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        justify-content: center;
+        animation-delay: 2s;
+
+}
+@keyframes cmm1
+{
+    0%{
+    margin-left: 150vw;
+    color: black;
+    }
+  
+    100%
+    {
+        margin-left: -150vw;
+        color: white;
+    }
+    }
+    #i8
+    {
+       
+        margin-left:0%;
+    }
+    #i8 img{
+       
+        width:10vw;
+    }
+    #i9
+    {
+        padding: 0vw 10vw;
+        color: rgb(242,253,131);
+    }
+    #i10{
+font-size: 2vw;
+position: absolute;
+text-align: center;
+top:50%;
+
+    }
+    #i11
+    {
+        position: relative;
+        margin-top: 30vw;
+        width: 100%;
+    }
+    .container
+    {
+        display: flex; margin-top: 5vw;   
+        font-size: 2vw;
+       
+    }
+        .q1
+        {
+            width: 35%;
+            margin: 2%;
+            height: 5vw;
+          
+            text-align: center;
+            
+            color: greenyellow;
+            white-space: nowrap;
+            padding: 2vw 5vw 0vw 5vw;
+            animation-name: dg;
+            animation-duration: 1s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+animation-direction: alternate;
+            animation-timing-function: linear;
+        }
+        @keyframes dg {
+            0%
+            {
+                color: black;
+
+            }
+            100%
+            { 
+                color: greenyellow;
+
+            }
+        }
+        #w1
+        {
+            width: 20vw;
+            position: relative;
+          
+           
+        }
+        #w2
+        {
+            width: 20vw;
+            
+          
+           
+        }
+        #d1
+        {
+            margin-left: 0%;
+            z-index: -10;
+          
+         
+        }
+      
+        #d2
+        {
+            margin-left: 0%;
+            z-index: -10;
+          
+          
+        }
+        #d3
+        {
+            margin-left: 0%;
+            z-index: -10;
+          
+          
+        }
+        #d4
+        {
+            margin-left: 0%;
+            z-index: -10;
+          
+          
+        }
+        #d5
+        {
+            margin-left: 0%;
+            z-index: -10;
+          
+          
+        }
+       
